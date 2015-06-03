@@ -1,0 +1,21 @@
+  <div>
+    BOL Number
+    <%=@newsoss.bol_no%>
+    <br>
+    <img id="<%=@newsoss.bol_no%>"/>
+    <script>$("#<%=@newsoss.bol_no%>").JsBarcode("<%=@newsoss.bol_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+
+
+  <div>
+    Customer Order Number(SOSS)
+    <%=@newsoss.customer_order_no%>
+    <br>
+    <img id="<%=@newsoss.customer_order_no%>"/>
+    <script>$("#<%=@newsoss.customer_order_no%>").JsBarcode("<%=@newsoss.customer_order_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+
+  <div class="spacer">
+  </div>

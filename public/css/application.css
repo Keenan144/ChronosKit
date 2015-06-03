@@ -1,0 +1,42 @@
+.sosstest{
+  text-align: center;
+  width: 340px;
+  float: left;
+  position: relative;
+  height: 250px;
+}
+.pallettest{
+  text-align: center;
+  width: 850px;
+  height: 250px;
+  margin: 5px;
+  float: right;
+  position: relative;
+}
+.cartontest{
+  height: 250px;
+  width: 300px;
+  margin: 5px;
+  float: right;
+  position: relative;
+}
+.container{
+  width: 880px;
+}
+.cartoncontainer{
+  width: 800px;
+}
+.detailed-result{
+  margin-left: 20px;
+}
+.single-barcode{
+  margin-left: 20px;
+}
+.spacer{
+  width: 90%;
+  border: 2px dashed black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

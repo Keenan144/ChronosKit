@@ -1,0 +1,41 @@
+
+
+
+<% Order.last(@lastamount).each do |soss| %>
+
+<div class="detailed-result">
+  <h4>BOL number:          <strong> <%= soss.bol_no %><br></strong></h4>
+  <h4>Created at:          <strong> <%= soss.created_at %><br></strong></h4>
+  <h4>Customer order no:   <strong> <%= soss.customer_order_no %><br></strong></h4>
+  <h4>Ship from company:   <strong> <%= soss.ship_from_company %><br></strong></h4>
+  <h4>Ship from address:   <strong> <%= soss.ship_from_address %><br></strong></h4>
+  <h4>Ship from zip code:  <strong> <%= soss.ship_from_zip_code %><br></strong></h4>
+  <h4>Ship to company:     <strong> <%= soss.ship_to_company %><br></strong></h4>
+  <h4>Ship to address:     <strong> <%= soss.ship_to_address %><br></strong></h4>
+  <h4>Ship to zip code:    <strong> <%= soss.ship_to_zip_code %><br></strong></h4>
+  <h4>Date:                <strong> <%= soss.date %><br></strong></h4>
+  <h4>Time:                <strong> <%= soss.time %><br></strong></h4>
+  <h4>D.O.W:               <strong> <%= soss.dow %><br></strong></h4>
+  <h4>Month:               <strong> <%= soss.month %><br></strong></h4>
+  <h4>Hour:                <strong> <%= soss.hour %><br></strong></h4>
+</div>
+<div class="single-barcode">
+  <div>
+    <h5>BOL Number: <%=soss.bol_no%></h5>
+    <br>
+    <img id="<%=soss.bol_no%>"/>
+    <script>$("#<%=soss.bol_no%>").JsBarcode("<%=soss.bol_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+
+  <div>
+    <h5>Customer Order Number(SOSS): <%=soss.customer_order_no%></h5>
+    <br>
+    <img id="<%=soss.customer_order_no%>"/>
+    <script>$("#<%=soss.customer_order_no%>").JsBarcode("<%=soss.customer_order_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+</div>
+<div class="spacer">
+</div>
+<%end%>

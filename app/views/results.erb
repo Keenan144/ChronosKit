@@ -1,0 +1,25 @@
+<div class="main-form">
+  <% @sossarray.each do |soss| %>
+  <div>
+    BOL Number
+    <%=soss.bol_no%>
+    <br>
+    <img id="<%=soss.bol_no%>"/>
+    <script>$("#<%=soss.bol_no%>").JsBarcode("<%=soss.bol_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+
+  <div>
+    Customer Order Number(SOSS)
+    <%=soss.customer_order_no%>
+    <br>
+    <img id="<%=soss.customer_order_no%>"/>
+    <script>$("#<%=soss.customer_order_no%>").JsBarcode("<%=soss.customer_order_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+  <div class="spacer">
+  </div>
+  <%end%>
+</div>
+
+

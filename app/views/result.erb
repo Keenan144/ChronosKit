@@ -1,0 +1,46 @@
+
+
+<% if @result == "NO RECORDS" %>
+<h2> NO RECORDS </h2>
+<% else %>
+
+<div class="detailed-result">
+  <h4>BOL number:          <strong> <%= @result.bol_no %><br></strong></h4>
+  <h4>Created at:          <strong> <%= @result.created_at %><br></strong></h4>
+  <h4>Customer order no:   <strong> <%= @result.customer_order_no %><br></strong></h4>
+  <h4>Ship from company:   <strong> <%= @result.ship_from_company %><br></strong></h4>
+  <h4>Ship from address:   <strong> <%= @result.ship_from_address %><br></strong></h4>
+  <h4>Ship from zip code:  <strong> <%= @result.ship_from_zip_code %><br></strong></h4>
+  <h4>Ship to company:     <strong> <%= @result.ship_to_company %><br></strong></h4>
+  <h4>Ship to address:     <strong> <%= @result.ship_to_address %><br></strong></h4>
+  <h4>Ship to zip code:    <strong> <%= @result.ship_to_zip_code %><br></strong></h4>
+  <h4>Date:                <strong> <%= @result.date %><br></strong></h4>
+  <h4>Time:                <strong> <%= @result.time %><br></strong></h4>
+  <h4>D.O.W:               <strong> <%= @result.dow %><br></strong></h4>
+  <h4>Month:               <strong> <%= @result.month %><br></strong></h4>
+  <h4>Hour:                <strong> <%= @result.hour %><br></strong></h4>
+</div>
+<br><br><br>
+
+<div class="single-barcode">
+  <div>
+    <h5>BOL Number: <%=@result.bol_no%></h5>
+    <br>
+    <img id="<%=@result.bol_no%>"/>
+    <script>$("#<%=@result.bol_no%>").JsBarcode("<%=@result.bol_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+
+  <div>
+    <h5>Customer Order Number(SOSS): <%=@result.customer_order_no%></h5>
+    <br>
+    <img id="<%=@result.customer_order_no%>"/>
+    <script>$("#<%=@result.customer_order_no%>").JsBarcode("<%=@result.customer_order_no%>",{displayValue:true});</script>
+    <br><br>
+  </div>
+</div>
+
+<div class="spacer">
+  </div>
+
+<%end%>
