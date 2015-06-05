@@ -17,52 +17,52 @@
 // });
 
 
-$(document).ready(function() {
-  $(".test").addClass('btn-active')
+// $(document).ready(function() {
+//   $(".test").addClass('btn-active')
 
-  $(".formsearch").hide();
-  $(".formcreate").hide();
-  $(".formrandom").hide();
-  $(".formgeneratetests").show();
-  console.log("ready")
+//   $(".formsearch").hide();
+//   $(".formcreate").hide();
+//   $(".formrandom").hide();
+//   $(".formgeneratetests").show();
+//   console.log("ready")
 
-  $(".random").click(function () {
-    $(".test").removeClass('btn-active')
+//   $(".random").click(function () {
+//     $(".test").removeClass('btn-active')
 
-    $(".formgeneratetests").hide();
-    $(".formcreate").hide();
-    $(".formsearch").hide();
-    $(".formrandom").show();
-    console.log("show random form complete");
-  });
+//     $(".formgeneratetests").hide();
+//     $(".formcreate").hide();
+//     $(".formsearch").hide();
+//     $(".formrandom").show();
+//     console.log("show random form complete");
+//   });
 
-  $(".search").click(function () {
-    $(".test").removeClass('btn-active')
+//   $(".search").click(function () {
+//     $(".test").removeClass('btn-active')
 
-    $(".formgeneratetests").hide();
-    $(".formcreate").hide();
-    $(".formrandom").hide();
-    $(".formsearch").show();
-    console.log("show search form complete");
-  });
+//     $(".formgeneratetests").hide();
+//     $(".formcreate").hide();
+//     $(".formrandom").hide();
+//     $(".formsearch").show();
+//     console.log("show search form complete");
+//   });
 
-  $(".new").click(function () {
-    $(".test").removeClass('btn-active')
+//   $(".new").click(function () {
+//     $(".test").removeClass('btn-active')
 
-    $(".formgeneratetests").hide();
-    $(".formrandom").hide();
-    $(".formsearch").hide();
-    $(".formcreate").show();
-    console.log("show create form complete");
-  });
+//     $(".formgeneratetests").hide();
+//     $(".formrandom").hide();
+//     $(".formsearch").hide();
+//     $(".formcreate").show();
+//     console.log("show create form complete");
+//   });
 
-  $(".test").click(function () {
-    $(".test").removeClass('btn-active')
+//   $(".test").click(function () {
+//     $(".test").removeClass('btn-active')
     
-    $(".formcreate").hide();
-    $(".formrandom").hide();
-    $(".formsearch").hide();
-    $(".formgeneratetests").show();
-    console.log("show test form complete");
-  });
-});
+//     $(".formcreate").hide();
+//     $(".formrandom").hide();
+//     $(".formsearch").hide();
+//     $(".formgeneratetests").show();
+//     console.log("show test form complete");
+//   });
+// });

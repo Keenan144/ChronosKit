@@ -8,15 +8,34 @@ get '/' do
   end
 
   # search.erb is empty now, used as landing page
-  erb :search 
+  erb :"results/search"
 end
 
+get '/newsoss' do 
+  erb :newsoss
+end
+
+get '/randomsoss' do 
+  erb :randomsoss
+end
+
+get '/generaterandomsoss' do 
+  erb :generaterandomsoss
+end
+
+get '/searchforsoss' do 
+  erb :searchforsoss
+end
+
+
 get '/reset' do
-  resets = Counter.first.siteresets
-  newresets = resets + 1
-  Counter.first.update(siteresets: newresets)
-  
-  erb :search
+  if Counter.first
+    resets = Counter.first.siteresets
+    newresets = resets + 1
+    Counter.first.update(siteresets: newresets)
+  else
+  end
+  redirect '/'
 end
 
 get '/help' do 
@@ -27,7 +46,7 @@ end
 post '/submit' do 
   if Order.last == nil 
     @error = "no database"
-    erb :search
+    erb :"results/search"
   else
   old = Counter.first.barcodesgenerated
   newbarcodesgenerated = old + params[:amountso].to_i
@@ -44,7 +63,7 @@ post '/submit' do
       @sossarray << Order.offset(rand(Order.count)).first
     end
 
-    erb :results
+    erb :"results/results"
   end
 end
 
@@ -62,7 +81,7 @@ post '/search' do
 
   if Order.last == nil 
     @error = "no database"
-    erb :search
+    erb :"results/search"
   else
     # if looking for last 10 or so, fills into @lastamount or stays nil
     # if lastamount is empty, search database for string and int values of BOL and SOSS
