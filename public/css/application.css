@@ -63,6 +63,11 @@
   margin-top: -20px;
 }
 
+.returned-data{
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
 
 
 
