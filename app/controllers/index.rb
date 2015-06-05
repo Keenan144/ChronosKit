@@ -1,20 +1,36 @@
 
 get '/' do
+  # tracks site visits
+  old = Counter.first.pagevisits
+  newvisits = old + 1
+  Counter.first.update(pagevisits: newvisits)
+
   # search.erb is empty now, used as landing page
   erb :search 
 end
 
-get '/help' do 
-  erb :help
+get '/reset' do
+  resets = Counter.first.siteresets
+  newresets = resets + 1
+  Counter.first.update(siteresets: newresets)
+  
+  erb :search
 end
 
+get '/help' do 
 
+  erb :help
+end
 
 post '/submit' do 
   if Order.last == nil 
     @error = "no database"
     erb :search
   else
+  old = Counter.first.barcodesgenerated
+  newbarcodesgenerated = old + params[:amountso].to_i
+  Counter.first.update(barcodesgenerated: newbarcodesgenerated)
+
     # get how many to search for
     # put random objects into an array
     # send array to erb page for render
@@ -31,16 +47,21 @@ post '/submit' do
 end
 
 post '/create' do 
+  old = Counter.first.barcodescreated
+  newbarcodescreated = old + 1
+  Counter.first.update(barcodescreated: newbarcodescreated)
+
   # Create a new entry
   @newsoss = Order.create(bol_no: params[:bol_no],created_at: params[:created_at],customer_order_no: params[:customer_order_no],ship_from_company: params[:ship_from_company],ship_from_address: params[:ship_from_address],ship_from_zip_code: params[:ship_from_zip_code],ship_to_company: params[:ship_to_company],ship_to_address: params[:ship_to_address],ship_to_zip_code: params[:ship_to_zip_code],date: params[:date],time: params[:time],dow: params[:dow],month: params[:month],hour: params[:hour],haserror: params[:haserror], deleteme: params[:haserror])
   erb :new
 end
 
 post '/search' do 
-if Order.last == nil 
-  @error = "no database"
-  erb :search
-else
+
+  if Order.last == nil 
+    @error = "no database"
+    erb :search
+  else
     # if looking for last 10 or so, fills into @lastamount or stays nil
     # if lastamount is empty, search database for string and int values of BOL and SOSS
   @lastamount = params[:amountlast] || nil
@@ -66,10 +87,10 @@ else
 end
 
 post '/removeCompletedData' do 
-if Order.last == nil 
-  @error = "no database"
-  erb :search
-else
+  if Order.last == nil 
+    @error = "no database"
+    erb :search
+  else
     # sorts through data looking for if any data is missing. If the object is complete it is flagged for deletion.
     # this is version 1 of what will soon be a auditing program for BOL SOSS reports.
 
@@ -131,10 +152,10 @@ else
 end
 
 post '/cleardata' do
-if Order.last == nil 
-  @error = "no database"
-  erb :search
-else
+  if Order.last == nil 
+    @error = "no database"
+    erb :search
+  else
 
     # runs through database, if deleteme == yes, it will be deleted
 
@@ -155,8 +176,26 @@ end
 
 
 post '/generatetests' do 
-require 'rubygems'
-require 'faker'
+  
+  require 'rubygems'
+  require 'faker'
+
+  old = Counter.first.barcodesgenerated
+  newbarcodesgenerated = old + params[:amountsoss].to_i + params[:amountpallets].to_i + params[:amountcartons].to_i
+  Counter.first.update(barcodesgenerated: newbarcodesgenerated)
+
+  old = Counter.first.cartonsgenerated
+  newcartonsgenerated = old + params[:amountcartons].to_i
+  Counter.first.update(cartonsgenerated: newcartonsgenerated)
+
+  old = Counter.first.palletsgenerated
+  newpalletsgenerated = old + params[:amountpallets].to_i
+  Counter.first.update(palletsgenerated: newpalletsgenerated)
+
+  old = Counter.first.sossgenerated
+  newsossgenerated = old + params[:amountsoss].to_i
+  Counter.first.update(sossgenerated: newsossgenerated)
+
 
   # generates FAKE data for users to test TOUCH and other scanning apps.
 

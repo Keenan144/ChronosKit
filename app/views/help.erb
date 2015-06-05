@@ -1,5 +1,9 @@
 <ul class="nav nav-pills appinfo">
-   <li>Site Visits <span class="badge"><%=@sitevisits%></span></li><br>
-   <li>Barcodes Created <span class="badge"><%=@barcodescreated%></span> </li><br>
-   <li>Barcodes Generated <span class="badge"><%=@barcodesgenerated%></span></li>
+   <li>Site Visits <span class="badge"><%=Counter.first.pagevisits%></span></li><br>
+   <li>Site Resets <span class="badge"><%=Counter.first.siteresets%></span></li><br>
+   <li>Barcodes Created <span class="badge"><%=Counter.first.barcodescreated%></span> </li><br>
+   <li>Barcodes Generated <span class="badge"><%=Counter.first.barcodesgenerated%></span></li><br>
+   <li>Cartons Generated <span class="badge"><%=Counter.first.cartonsgenerated%></span></li><br>
+   <li>Pallets Generated <span class="badge"><%=Counter.first.palletsgenerated%></span></li><br>
+   <li>Soss's Generated <span class="badge"><%=Counter.first.sossgenerated%></span></li>
 </ul>
