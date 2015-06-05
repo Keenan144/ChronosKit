@@ -1,5 +1,5 @@
 <ul class="nav nav-pills appinfo">
-  <%if Counter.first%>
+  <%if Counter.first != nil %>
    <li>Site Visits <span class="badge"><%=Counter.first.pagevisits%></span></li><br>
    <li>Site Resets <span class="badge"><%=Counter.first.siteresets%></span></li><br>
    <li>Barcodes Created <span class="badge"><%=Counter.first.barcodescreated%></span> </li><br>
@@ -10,6 +10,5 @@
    <%else%>
    <h2> Tracking is not ready</h2>
    <h5> The Database is empty, or not responding</h5>
-   <%end%>
-   
+  <%end%>
 </ul>
