@@ -1,3 +1,4 @@
+
 get '/' do
   # search.erb is empty now, used as landing page
   erb :search 
