@@ -1,4 +1,5 @@
 <ul class="nav nav-pills appinfo">
+  <%if Counter.first%>
    <li>Site Visits <span class="badge"><%=Counter.first.pagevisits%></span></li><br>
    <li>Site Resets <span class="badge"><%=Counter.first.siteresets%></span></li><br>
    <li>Barcodes Created <span class="badge"><%=Counter.first.barcodescreated%></span> </li><br>
@@ -6,4 +7,8 @@
    <li>Cartons Generated <span class="badge"><%=Counter.first.cartonsgenerated%></span></li><br>
    <li>Pallets Generated <span class="badge"><%=Counter.first.palletsgenerated%></span></li><br>
    <li>Soss's Generated <span class="badge"><%=Counter.first.sossgenerated%></span></li>
+   <%else%>
+   <h2> Tracking is not ready</h2>
+   <h5> The Database is empty, or not responding</h5>
+   <%end%>
 </ul>

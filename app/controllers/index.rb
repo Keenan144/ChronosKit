@@ -1,9 +1,11 @@
 
 get '/' do
   # tracks site visits
-  old = Counter.first.pagevisits
-  newvisits = old + 1
-  Counter.first.update(pagevisits: newvisits)
+  if Counter.last
+    old = Counter.first.pagevisits
+    newvisits = old + 1
+    Counter.first.update(pagevisits: newvisits)
+  end
 
   # search.erb is empty now, used as landing page
   erb :search 
