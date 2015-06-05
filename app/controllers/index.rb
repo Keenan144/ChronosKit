@@ -3,6 +3,12 @@ get '/' do
   erb :search 
 end
 
+get '/help' do 
+  erb :help
+end
+
+
+
 post '/submit' do 
   if Order.last == nil 
     @error = "no database"

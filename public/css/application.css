@@ -40,3 +40,56 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.navbar{
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.top-buttons{
+  width: 772px;
+}
+.btn-active{
+  background-color: rgb(50,117,184);
+  border: 1px solid rgb(50,117,184);
+}
+
+
+
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

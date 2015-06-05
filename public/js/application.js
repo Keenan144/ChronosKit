@@ -18,13 +18,17 @@
 
 
 $(document).ready(function() {
-  $(".formgeneratetests").show();
+  $(".test").addClass('btn-active')
+
   $(".formsearch").hide();
   $(".formcreate").hide();
   $(".formrandom").hide();
+  $(".formgeneratetests").show();
   console.log("ready")
 
   $(".random").click(function () {
+    $(".test").removeClass('btn-active')
+
     $(".formgeneratetests").hide();
     $(".formcreate").hide();
     $(".formsearch").hide();
@@ -33,6 +37,8 @@ $(document).ready(function() {
   });
 
   $(".search").click(function () {
+    $(".test").removeClass('btn-active')
+
     $(".formgeneratetests").hide();
     $(".formcreate").hide();
     $(".formrandom").hide();
@@ -41,6 +47,8 @@ $(document).ready(function() {
   });
 
   $(".new").click(function () {
+    $(".test").removeClass('btn-active')
+
     $(".formgeneratetests").hide();
     $(".formrandom").hide();
     $(".formsearch").hide();
@@ -49,6 +57,8 @@ $(document).ready(function() {
   });
 
   $(".test").click(function () {
+    $(".test").removeClass('btn-active')
+    
     $(".formcreate").hide();
     $(".formrandom").hide();
     $(".formsearch").hide();
