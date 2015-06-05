@@ -9,6 +9,10 @@ get '/newsoss' do
   erb :newsoss
 end
 
+get '/feedback' do 
+  erb :feedback
+end
+ 
 get '/randomsoss' do 
   erb :randomsoss
 end
