@@ -71,6 +71,23 @@ post '/generatetests' do
   @amountsoss = params[:amountsoss]
   @amountpallets = params[:amountpallets]
   @amountcartons = params[:amountcartons]
+
+
+  # LIMITER, when entering a huge number the site slows for all users.
+  # this will prevent it.
+
+  if @amountsoss.to_i > 200
+    @amountsoss = 200
+    p "LIMITER"
+  elsif @amountpallets.to_i > 300
+    @amountpallets = 300
+    p "LIMITER"
+  elsif @amountcartons.to_i > 500
+    @amountcartons = 500
+    p "LIMITER"
+  else
+
+  end
   erb :"results/test" 
 end
 
