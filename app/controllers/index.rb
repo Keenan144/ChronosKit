@@ -71,7 +71,7 @@ post '/generatetests' do
   @amountsoss = params[:amountsoss]
   @amountpallets = params[:amountpallets]
   @amountcartons = params[:amountcartons]
-  erb :test 
+  erb :"results/test" 
 end
 
   
