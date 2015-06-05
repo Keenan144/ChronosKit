@@ -41,12 +41,12 @@
   margin-bottom: 50px;
 }
 .navbar{
-  width: 800px;
+  width: 280px;
   margin-right: auto;
   margin-left: auto;
 }
 .top-buttons{
-  width: 780px;
+  width: 280px;
 }
 .btn-active{
   background-color: rgb(50,117,184);
@@ -56,6 +56,11 @@
   float: right;
   margin-top: -80px;
   margin-right: 10px;
+}
+.page-header{
+  background-color: lightblue;
+  padding: 40px;
+  margin-top: -20px;
 }
 
 
