@@ -6,8 +6,14 @@ Rails.application.routes.draw do
   get 'contact' => 'static_pages#contact'
   get 'fake_barcodes' => 'static_pages#fake'
   get 'generate_barcodes' => 'barcodes#generate'
-  post 'fake_barcodes' => 'barcodes#fake'
   get 'generate_barcodes' => 'barcodes#generate'
+  get 'search' => 'barcodes#search'
+  get 'help' => 'static_pages#help'
+  get 'reset' => 'static_pages#reset'
+  get 'feedback' => 'static_pages#feedback'
+  post 'search' => 'barcodes#search'
+  post 'search_last' => 'barcodes#last'
+  post 'fake_barcodes' => 'barcodes#fake'
 
   resources :barcodes
   resources :amounts

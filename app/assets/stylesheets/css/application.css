@@ -1,4 +1,8 @@
-
+.code{
+  float: right;
+  margin: 5px;
+  border: 1px solid black;
+}
 .sosstest{
   text-align: center;
   width: 340px;
@@ -42,12 +46,12 @@
   margin-bottom: 50px;
 }
 .navbar{
-  width: 434px;
+  width: 800px;
   margin-right: auto;
   margin-left: auto;
 }
 .top-buttons{
-  width: 434px;
+  width: 702px,;
 }
 .btn-active{
   background-color: rgb(50,117,184);

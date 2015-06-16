@@ -1,4 +1,4 @@
-<% Barcode.all.each do |code| %>
+<% @barcodes.each do |code| %>
 <div class="code">
   <br>
     <img id="<%= code.soss_number %>"/>
@@ -7,4 +7,4 @@
       </script>
   <br><br>
 </div>
-  <%end%>
+<%end%>

@@ -1,11 +1,8 @@
-<%= Barcode.last.soss_number %>
-
-
-<h1 align="left">SOSS</h1>
+<%= @barcode.soss_number %>
       <br>
-      <img id="<%=Barcode.last.soss_number%>"/>
+      <img id="<%=@barcode.soss_number%>"/>
       <script>
-      $("#<%=Barcode.last.soss_number%>").JsBarcode("PWZ-<%=Barcode.last.soss_number%>",{displayValue:true});
+      $("#<%=@barcode.soss_number%>").JsBarcode("PWZ-<%=@barcode.soss_number%>",{displayValue:true});
       </script>
       <br><br>
 </div>
