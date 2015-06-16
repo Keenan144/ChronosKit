@@ -12371,3 +12371,2089 @@ Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1
 
 
 Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:40:18 +0800
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:43:57 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (233.2ms)
+Completed 200 OK in 477ms (Views: 465.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:43:58 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:43:58 +0800
+
+
+Started GET "/fake_barcodes" for ::1 at 2015-06-16 15:44:00 +0800
+Processing by StaticPagesController#fake as HTML
+  Rendered static_pages/fake.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:44:06 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barcodes" for ::1 at 2015-06-16 15:44:08 +0800
+Processing by BarcodesController#index as HTML
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT "barcodes".* FROM "barcodes"
+  Rendered barcodes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:50:02 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:51:02 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (69.5ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `generate_barcodes_path' for #<#<Class:0x007f9138d720f0>:0x007f91419aa950>):
+    14:     <% end %>
+    15:   </div>
+    16: 
+    17:   <%= button_to "chronosSMARTgenerator", generate_barcodes_path %>
+    18: </div>
+  app/views/barcodes/new.html.erb:17:in `_app_views_barcodes_new_html_erb___422495606665952672_70130923817740'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:51:42 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:51:42 +0800
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:52:03 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:52:03 +0800
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:52:14 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:52:14 +0800
+
+
+Started POST "/generate_barcodes" for ::1 at 2015-06-16 15:52:16 +0800
+
+ActionController::RoutingError (No route matches [POST] "/generate_barcodes"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.7ms)
+
+
+Started POST "/generate_barcodes" for ::1 at 2015-06-16 15:52:34 +0800
+
+ActionController::RoutingError (No route matches [POST] "/generate_barcodes"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:52:37 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:52:37 +0800
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:52:38 +0800
+
+AbstractController::ActionNotFound (The action 'generate' could not be found for BarcodesController):
+  actionpack (4.2.1) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (58.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (82.6ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:52:58 +0800
+Processing by BarcodesController#generate as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template barcodes/generate, application/generate with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/keenansturtevant/Desktop/ChronosKit/app/views"
+):
+  actionview (4.2.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (74.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.6ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:53:12 +0800
+Processing by BarcodesController#generate as HTML
+  Rendered barcodes/generate.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:53:12 +0800
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:54:28 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `amount' for #<Barcode:0x007f913e9dc048>):
+    3:     <%= form_for(@barcode) do |f| %>
+    4:       <div class="amazon-form">
+    5:         <%= f.label :amount %>
+    6:         <%= f.text_field :amount, class: 'form-control' %>
+    7: 
+    8:         <%= f.submit "Create Code", class: "btn btn-primary" %>
+    9:       </div>
+  app/views/barcodes/generate.html.erb:6:in `block in _app_views_barcodes_generate_html_erb___359994400671135976_70130855643880'
+  app/views/barcodes/generate.html.erb:3:in `_app_views_barcodes_generate_html_erb___359994400671135976_70130855643880'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (62.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (74.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.1ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:55:48 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  Rendered barcodes/generate.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class="row">
+    2:   <div class="col-md-6 col-md-offset-3">
+    3:     <%= form_for(@amount) do |f| %>
+    4:       <div class="amazon-form">
+    5:         <%= f.label :amount %>
+    6:         <%= f.text_field :amount, class: 'form-control' %>
+  app/views/barcodes/generate.html.erb:3:in `_app_views_barcodes_generate_html_erb___359994400671135976_70130884986440'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.9ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:55:59 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class="row">
+    2:   <div class="col-md-6 col-md-offset-3">
+    3:     <%= form_for(@amount) do |f| %>
+    4:       <div class="amazon-form">
+    5:         <%= f.label :amount %>
+    6:         <%= f.text_field :amount, class: 'form-control' %>
+  app/views/barcodes/generate.html.erb:3:in `_app_views_barcodes_generate_html_erb___359994400671135976_70130884986440'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAmounts (20150616075625)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "amounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "amount" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150616075625"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:56:53 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BarcodesController#generate as HTML
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  Rendered barcodes/generate.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class="row">
+    2:   <div class="col-md-6 col-md-offset-3">
+    3:     <%= form_for(@amount) do |f| %>
+    4:       <div class="amazon-form">
+    5:         <%= f.label :amount %>
+    6:         <%= f.text_field :amount, class: 'form-control' %>
+  app/views/barcodes/generate.html.erb:3:in `_app_views_barcodes_generate_html_erb__589546249620379094_70123747090360'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.5ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:57:17 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `amounts_path' for #<#<Class:0x007f8dea010138>:0x007f8dea01aa48>):
+    1: <div class="row">
+    2:   <div class="col-md-6 col-md-offset-3">
+    3:     <%= form_for(@amount) do |f| %>
+    4:       <div class="amazon-form">
+    5:         <%= f.label :amount %>
+    6:         <%= f.text_field :amount, class: 'form-control' %>
+  app/views/barcodes/generate.html.erb:3:in `_app_views_barcodes_generate_html_erb__589546249620379094_70123747090360'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:57:42 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  Rendered barcodes/generate.html.erb within layouts/application (277.8ms)
+Completed 200 OK in 516ms (Views: 507.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:57:43 +0800
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:58:17 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 24.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:58:17 +0800
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:58:44 +0800
+Processing by BarcodesController#generate as HTML
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: amount):
+  app/controllers/barcodes_controller.rb:51:in `amount_params'
+  app/controllers/barcodes_controller.rb:20:in `generate'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.5ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:59:29 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "amounts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-06-16 07:59:29.717740"], ["updated_at", "2015-06-16 07:59:29.717740"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 23.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 15:59:29 +0800
+
+
+Started PATCH "/amounts/1" for ::1 at 2015-06-16 15:59:33 +0800
+
+ActionController::RoutingError (uninitialized constant AmountsController):
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (56.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.3ms)
+
+
+Started GET "/" for ::1 at 2015-06-16 15:59:52 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 15:59:54 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 15:59:55 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "amounts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-06-16 07:59:55.560859"], ["updated_at", "2015-06-16 07:59:55.560859"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 23.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:01:03 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "amounts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-06-16 08:01:03.231753"], ["updated_at", "2015-06-16 08:01:03.231753"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 16:01:03 +0800
+
+
+Started POST "/generate_barcodes" for ::1 at 2015-06-16 16:01:08 +0800
+
+ActionController::RoutingError (No route matches [POST] "/generate_barcodes"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.4ms)
+
+
+Started POST "/generate_barcodes" for ::1 at 2015-06-16 16:01:42 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amountsoss"=>"10"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "amounts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-06-16 08:01:42.550635"], ["updated_at", "2015-06-16 08:01:42.550635"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 38ms (Views: 26.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 16:01:42 +0800
+
+
+Started POST "/generate_barcodes" for ::1 at 2015-06-16 16:01:47 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amountsoss"=>"10"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "amounts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-06-16 08:01:47.964558"], ["updated_at", "2015-06-16 08:01:47.964558"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.2ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 24.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/fake_barcodes" for ::1 at 2015-06-16 16:03:04 +0800
+Processing by StaticPagesController#fake as HTML
+  Rendered static_pages/fake.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 16:03:05 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:03:06 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `times' for nil:NilClass):
+  app/controllers/barcodes_controller.rb:23:in `generate'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.8ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:03:47 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 77.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 16:03:47 +0800
+
+
+Started POST "/generate_barcodes" for ::1 at 2015-06-16 16:03:55 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"10"}
+Can't verify CSRF token authenticity
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/generate_barcodes" for ::1 at 2015-06-16 16:04:28 +0800
+
+ActionController::RoutingError (No route matches [POST] "/generate_barcodes"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.4ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:04:31 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.4ms)
+
+NoMethodError (undefined method `times' for nil:NilClass):
+  app/controllers/barcodes_controller.rb:23:in `generate'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-16 16:04:33 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 16:04:34 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:04:35 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `times' for nil:NilClass):
+  app/controllers/barcodes_controller.rb:23:in `generate'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:04:56 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/generate.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 16:04:57 +0800
+
+
+Started GET "/generate_barcodes?amount=10" for ::1 at 2015-06-16 16:05:00 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"10"}
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/generate_barcodes?amount=10" for ::1 at 2015-06-16 16:06:02 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"10"}
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `times' for "10":String):
+  app/controllers/barcodes_controller.rb:24:in `generate'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.3ms)
+
+
+Started GET "/generate_barcodes?amount=10" for ::1 at 2015-06-16 16:06:15 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"10"}
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 81ms (Views: 74.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 16:06:15 +0800
+
+
+Started GET "/generate_barcodes?amount=3" for ::1 at 2015-06-16 16:07:05 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"3"}
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11113' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11113"], ["created_at", "2015-06-16 08:07:05.433270"], ["updated_at", "2015-06-16 08:07:05.433270"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11113' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11113' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 22.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/generate_barcodes?amount=3" for ::1 at 2015-06-16 16:07:25 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"3"}
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11114' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11114"], ["created_at", "2015-06-16 08:07:25.100161"], ["updated_at", "2015-06-16 08:07:25.100161"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11114' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11114' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 22.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/generate_barcodes?amount=3" for ::1 at 2015-06-16 16:07:39 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"3"}
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11115' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11115"], ["created_at", "2015-06-16 08:07:39.103709"], ["updated_at", "2015-06-16 08:07:39.103709"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11116' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11116"], ["created_at", "2015-06-16 08:07:39.107271"], ["updated_at", "2015-06-16 08:07:39.107271"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11117' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11117"], ["created_at", "2015-06-16 08:07:39.109480"], ["updated_at", "2015-06-16 08:07:39.109480"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  Rendered barcodes/generate.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 22.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/generate_barcodes?amount=10" for ::1 at 2015-06-16 16:08:06 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"10"}
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11118' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11118"], ["created_at", "2015-06-16 08:08:06.399819"], ["updated_at", "2015-06-16 08:08:06.399819"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11118' AND "barcodes"."id" != 8) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11119' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11119"], ["created_at", "2015-06-16 08:08:06.403783"], ["updated_at", "2015-06-16 08:08:06.403783"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11119' AND "barcodes"."id" != 9) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11120' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11120"], ["created_at", "2015-06-16 08:08:06.406751"], ["updated_at", "2015-06-16 08:08:06.406751"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11120' AND "barcodes"."id" != 10) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11121' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11121"], ["created_at", "2015-06-16 08:08:06.409682"], ["updated_at", "2015-06-16 08:08:06.409682"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11121' AND "barcodes"."id" != 11) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11122' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11122"], ["created_at", "2015-06-16 08:08:06.412312"], ["updated_at", "2015-06-16 08:08:06.412312"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11122' AND "barcodes"."id" != 12) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11123' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11123"], ["created_at", "2015-06-16 08:08:06.414965"], ["updated_at", "2015-06-16 08:08:06.414965"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11123' AND "barcodes"."id" != 13) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11124' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11124"], ["created_at", "2015-06-16 08:08:06.417580"], ["updated_at", "2015-06-16 08:08:06.417580"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11124' AND "barcodes"."id" != 14) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11125' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11125"], ["created_at", "2015-06-16 08:08:06.420338"], ["updated_at", "2015-06-16 08:08:06.420338"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11125' AND "barcodes"."id" != 15) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11126' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11126"], ["created_at", "2015-06-16 08:08:06.422841"], ["updated_at", "2015-06-16 08:08:06.422841"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11126' AND "barcodes"."id" != 16) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.3ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11127' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11127"], ["created_at", "2015-06-16 08:08:06.425678"], ["updated_at", "2015-06-16 08:08:06.425678"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11127' AND "barcodes"."id" != 17) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  Rendered barcodes/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 113ms (Views: 77.4ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 16:08:17 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 26.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:08:18 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[35mBarcode Load (0.2ms)[0m  SELECT "barcodes".* FROM "barcodes"
+  Rendered barcodes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 16:08:22 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:08:23 +0800
+Processing by BarcodesController#generate as HTML
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT "barcodes".* FROM "barcodes"[0m
+  Rendered barcodes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 16:08:32 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 32ms (Views: 26.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:08:32 +0800
+Processing by BarcodesController#generate as HTML
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes?amount=20" for ::1 at 2015-06-16 16:08:35 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"20"}
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11128' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11128"], ["created_at", "2015-06-16 08:08:35.670870"], ["updated_at", "2015-06-16 08:08:35.670870"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11128' AND "barcodes"."id" != 18) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.3ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11129' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11129"], ["created_at", "2015-06-16 08:08:35.675166"], ["updated_at", "2015-06-16 08:08:35.675166"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11129' AND "barcodes"."id" != 19) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11130' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11130"], ["created_at", "2015-06-16 08:08:35.678001"], ["updated_at", "2015-06-16 08:08:35.678001"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11130' AND "barcodes"."id" != 20) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11131' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11131"], ["created_at", "2015-06-16 08:08:35.683067"], ["updated_at", "2015-06-16 08:08:35.683067"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11131' AND "barcodes"."id" != 21) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11132' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11132"], ["created_at", "2015-06-16 08:08:35.685805"], ["updated_at", "2015-06-16 08:08:35.685805"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11132' AND "barcodes"."id" != 22) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11133' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11133"], ["created_at", "2015-06-16 08:08:35.688951"], ["updated_at", "2015-06-16 08:08:35.688951"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11133' AND "barcodes"."id" != 23) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11134' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11134"], ["created_at", "2015-06-16 08:08:35.691875"], ["updated_at", "2015-06-16 08:08:35.691875"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11134' AND "barcodes"."id" != 24) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11135' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11135"], ["created_at", "2015-06-16 08:08:35.694611"], ["updated_at", "2015-06-16 08:08:35.694611"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11135' AND "barcodes"."id" != 25) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11136' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11136"], ["created_at", "2015-06-16 08:08:35.698581"], ["updated_at", "2015-06-16 08:08:35.698581"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11136' AND "barcodes"."id" != 26) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11137' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11137"], ["created_at", "2015-06-16 08:08:35.701990"], ["updated_at", "2015-06-16 08:08:35.701990"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11137' AND "barcodes"."id" != 27) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11138' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11138"], ["created_at", "2015-06-16 08:08:35.704998"], ["updated_at", "2015-06-16 08:08:35.704998"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11138' AND "barcodes"."id" != 28) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11139' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11139"], ["created_at", "2015-06-16 08:08:35.708773"], ["updated_at", "2015-06-16 08:08:35.708773"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.2ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11139' AND "barcodes"."id" != 29) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11140' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11140"], ["created_at", "2015-06-16 08:08:35.712675"], ["updated_at", "2015-06-16 08:08:35.712675"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11140' AND "barcodes"."id" != 30) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11141' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11141"], ["created_at", "2015-06-16 08:08:35.715770"], ["updated_at", "2015-06-16 08:08:35.715770"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11141' AND "barcodes"."id" != 31) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11142' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11142"], ["created_at", "2015-06-16 08:08:35.718455"], ["updated_at", "2015-06-16 08:08:35.718455"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11142' AND "barcodes"."id" != 32) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11143' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11143"], ["created_at", "2015-06-16 08:08:35.720959"], ["updated_at", "2015-06-16 08:08:35.720959"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11143' AND "barcodes"."id" != 33) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11144' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11144"], ["created_at", "2015-06-16 08:08:35.724307"], ["updated_at", "2015-06-16 08:08:35.724307"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11144' AND "barcodes"."id" != 34) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11145' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11145"], ["created_at", "2015-06-16 08:08:35.726969"], ["updated_at", "2015-06-16 08:08:35.726969"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11145' AND "barcodes"."id" != 35) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11146' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11146"], ["created_at", "2015-06-16 08:08:35.729557"], ["updated_at", "2015-06-16 08:08:35.729557"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.2ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11146' AND "barcodes"."id" != 36) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11147' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11147"], ["created_at", "2015-06-16 08:08:35.733623"], ["updated_at", "2015-06-16 08:08:35.733623"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11147' AND "barcodes"."id" != 37) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT "barcodes".* FROM "barcodes"
+  Rendered barcodes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 93ms (Views: 24.1ms | ActiveRecord: 21.8ms)
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 16:08:42 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:08:44 +0800
+Processing by BarcodesController#generate as HTML
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes?amount=10" for ::1 at 2015-06-16 16:08:47 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"10"}
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11148' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11148"], ["created_at", "2015-06-16 08:08:47.039534"], ["updated_at", "2015-06-16 08:08:47.039534"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11148' AND "barcodes"."id" != 38) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11149' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11149"], ["created_at", "2015-06-16 08:08:47.042484"], ["updated_at", "2015-06-16 08:08:47.042484"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11149' AND "barcodes"."id" != 39) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11150' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11150"], ["created_at", "2015-06-16 08:08:47.045054"], ["updated_at", "2015-06-16 08:08:47.045054"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11150' AND "barcodes"."id" != 40) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11151' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11151"], ["created_at", "2015-06-16 08:08:47.047637"], ["updated_at", "2015-06-16 08:08:47.047637"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11151' AND "barcodes"."id" != 41) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11152' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11152"], ["created_at", "2015-06-16 08:08:47.050164"], ["updated_at", "2015-06-16 08:08:47.050164"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11152' AND "barcodes"."id" != 42) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11153' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11153"], ["created_at", "2015-06-16 08:08:47.053127"], ["updated_at", "2015-06-16 08:08:47.053127"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11153' AND "barcodes"."id" != 43) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11154' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11154"], ["created_at", "2015-06-16 08:08:47.056040"], ["updated_at", "2015-06-16 08:08:47.056040"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11154' AND "barcodes"."id" != 44) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11155' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11155"], ["created_at", "2015-06-16 08:08:47.058672"], ["updated_at", "2015-06-16 08:08:47.058672"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11155' AND "barcodes"."id" != 45) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11156' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11156"], ["created_at", "2015-06-16 08:08:47.061178"], ["updated_at", "2015-06-16 08:08:47.061178"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11156' AND "barcodes"."id" != 46) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11157' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11157"], ["created_at", "2015-06-16 08:08:47.063736"], ["updated_at", "2015-06-16 08:08:47.063736"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11157' AND "barcodes"."id" != 47) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT "barcodes".* FROM "barcodes"[0m
+  Rendered barcodes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 57ms (Views: 28.9ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/generate_barcodes?amount=10" for ::1 at 2015-06-16 16:09:49 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"10"}
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11158' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11158"], ["created_at", "2015-06-16 08:09:49.990448"], ["updated_at", "2015-06-16 08:09:49.990448"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11158' AND "barcodes"."id" != 48) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11159' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11159"], ["created_at", "2015-06-16 08:09:49.993925"], ["updated_at", "2015-06-16 08:09:49.993925"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11159' AND "barcodes"."id" != 49) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11160' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11160"], ["created_at", "2015-06-16 08:09:49.996665"], ["updated_at", "2015-06-16 08:09:49.996665"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11160' AND "barcodes"."id" != 50) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11161' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11161"], ["created_at", "2015-06-16 08:09:49.999989"], ["updated_at", "2015-06-16 08:09:49.999989"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11161' AND "barcodes"."id" != 51) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11162' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11162"], ["created_at", "2015-06-16 08:09:50.003372"], ["updated_at", "2015-06-16 08:09:50.003372"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11162' AND "barcodes"."id" != 52) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11163' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11163"], ["created_at", "2015-06-16 08:09:50.007723"], ["updated_at", "2015-06-16 08:09:50.007723"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11163' AND "barcodes"."id" != 53) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11164' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11164"], ["created_at", "2015-06-16 08:09:50.010475"], ["updated_at", "2015-06-16 08:09:50.010475"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11164' AND "barcodes"."id" != 54) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11165' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11165"], ["created_at", "2015-06-16 08:09:50.013238"], ["updated_at", "2015-06-16 08:09:50.013238"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11165' AND "barcodes"."id" != 55) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11166' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11166"], ["created_at", "2015-06-16 08:09:50.016188"], ["updated_at", "2015-06-16 08:09:50.016188"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11166' AND "barcodes"."id" != 56) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.1ms)[0m  SELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11167' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["soss_number", "11167"], ["created_at", "2015-06-16 08:09:50.019057"], ["updated_at", "2015-06-16 08:09:50.019057"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mBarcode Exists (0.1ms)[0m  SELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11167' AND "barcodes"."id" != 57) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBarcode Load (0.2ms)[0m  SELECT "barcodes".* FROM "barcodes"
+  Rendered barcodes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 24.3ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/css/application.self-081a42ae0eab1f7962cb5c589f53542a94f82be52828da404da31bc3b25e6a15.css?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-16 16:09:50 +0800
+
+
+Started GET "/barcodes/new" for ::1 at 2015-06-16 16:09:51 +0800
+Processing by BarcodesController#new as HTML
+  Rendered barcodes/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes" for ::1 at 2015-06-16 16:09:54 +0800
+Processing by BarcodesController#generate as HTML
+  Rendered barcodes/generate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/generate_barcodes?amount=3" for ::1 at 2015-06-16 16:09:57 +0800
+Processing by BarcodesController#generate as HTML
+  Parameters: {"amount"=>"3"}
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11168' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11168"], ["created_at", "2015-06-16 08:09:57.226630"], ["updated_at", "2015-06-16 08:09:57.226630"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11168' AND "barcodes"."id" != 58) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11169' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11169"], ["created_at", "2015-06-16 08:09:57.232658"], ["updated_at", "2015-06-16 08:09:57.232658"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11169' AND "barcodes"."id" != 59) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.1ms)[0m  [1mSELECT  "barcodes".* FROM "barcodes"  ORDER BY "barcodes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE "barcodes"."soss_number" = '11170' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "barcodes" ("soss_number", "created_at", "updated_at") VALUES (?, ?, ?)  [["soss_number", "11170"], ["created_at", "2015-06-16 08:09:57.237484"], ["updated_at", "2015-06-16 08:09:57.237484"]]
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mBarcode Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "barcodes" WHERE ("barcodes"."soss_number" = '11170' AND "barcodes"."id" != 60) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mBarcode Load (0.2ms)[0m  [1mSELECT "barcodes".* FROM "barcodes"[0m
+  Rendered barcodes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 24.9ms | ActiveRecord: 4.0ms)

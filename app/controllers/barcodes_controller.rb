@@ -16,6 +16,20 @@ require 'faker'
     render 'show'
   end
 
+  def generate
+    @amount = params[:amount]
+    @barcode = Barcode.new
+    if @amount != nil
+      @amount.to_i.times do |x|
+      last_barcode = Barcode.last.soss_number
+        Barcode.create(soss_number: last_barcode.to_i + 1).save
+      end
+    render 'index'
+    end
+
+
+  end
+
 
   def fake
   # generates FAKE data for users to test TOUCH and other scanning apps.
@@ -38,5 +52,6 @@ private
   def code_params
     params.require(:barcode).permit(:soss_number)
   end
+
 
 end
