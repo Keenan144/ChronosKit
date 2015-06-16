@@ -1,6 +1,12 @@
 class BarcodesController < ApplicationController
 require 'faker'
 
+  def new
+
+    
+  end
+
+
   def fake
   # generates FAKE data for users to test TOUCH and other scanning apps.
 
