@@ -62,10 +62,10 @@
   margin-top: -80px;
   margin-right: 10px;
 }
-.page-header{
+.page-head{
   background-color: lightblue;
   padding: 40px;
-  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 .returned-data{
