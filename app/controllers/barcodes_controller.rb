@@ -2,8 +2,18 @@ class BarcodesController < ApplicationController
 require 'faker'
 
   def new
+    @barcode = Barcode.new
+  end
 
-    
+  def index
+    @barcodes = Barcode.all
+  end
+
+  def create
+    @barcode = Barcode.create(code_params)
+    p params[:soss_number]
+
+    render 'show'
   end
 
 
@@ -23,7 +33,10 @@ require 'faker'
 
 
 
+private
 
-
+  def code_params
+    params.require(:barcode).permit(:soss_number)
+  end
 
 end

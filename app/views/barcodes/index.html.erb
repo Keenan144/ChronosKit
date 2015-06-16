@@ -1,0 +1,10 @@
+<% Barcode.all.each do |code| %>
+<%= code.soss_number %>
+<br>
+  <img id="<%= code.soss_number %>"/>
+    <script>
+      $("#<%= code.soss_number %>").JsBarcode("<%= code.soss_number %>",{displayValue:true});
+    </script>
+<br><br>
+</div>
+<%end%>

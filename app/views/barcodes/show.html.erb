@@ -1,0 +1,11 @@
+<%= Barcode.last.soss_number %>
+
+
+<h1 align="left">SOSS</h1>
+      <br>
+      <img id="<%=Barcode.last.soss_number%>"/>
+      <script>
+      $("#<%=Barcode.last.soss_number%>").JsBarcode("<%=Barcode.last.soss_number%>",{displayValue:true});
+      </script>
+      <br><br>
+</div>

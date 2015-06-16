@@ -1,1 +1,16 @@
-new.html.erb
+<% provide(:title, 'Barcode') %>
+<h1>New Barcode</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@barcode) do |f| %>
+      <div class="amazon-form">
+        <%= f.label :soss_number %>
+        <%= f.text_field :soss_number, class: 'form-control' %>
+
+        <%= f.submit "Create Code", class: "btn btn-primary" %>
+      </div>
+      <br>
+    <% end %>
+  </div>
+</div>
