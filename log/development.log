@@ -9651,3 +9651,46 @@ Processing by BarcodesController#fake as HTML
 Can't verify CSRF token authenticity
   Rendered barcodes/fake.html.erb within layouts/application (3.6ms)
 Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-16 14:49:03 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 623ms (Views: 615.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/css/application.self-f669d61e5c42595534d59ccb1e347c4a619c279078b4d16dc2a28d266fcf7bb9.css?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/css/bootstrap.self-e39b7e55a36efe7717b014c9d59fee5684a8bf913f4d291660276545c06f1a9a.css?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/css/normalize.self-178f35f331339ec28e2c9490cec9a660e4d03aa418a45651eb3d9d662263951d.css?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/JsBarcode.all.min.self-e476db7021151c433a918986d49cf80f218d07ed567377645d7fabb4278c6a54.js?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/barcodes.self-d9dad114aa43b1b56e2ed542efe2d38ba33a1a1bedb6ea4e12775441a4c4dcd6.js?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-16 14:49:04 +0800
+
+
+Started GET "/assets/application.self-51d94a938e800b29c6eab51f39c13f933018354df1da11e1ac6f2459a3fa8526.js?body=1" for ::1 at 2015-06-16 14:49:04 +0800
