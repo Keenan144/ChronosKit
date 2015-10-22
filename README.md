@@ -11,13 +11,13 @@ I built this app for practice. It is not intended for use, however can be used. 
 
 ## Set up Database
 
-- 3 run `~ rake db:create`
-- 4 run `~ rake db:migrate`
-- 5 run `~ rake db:seed`
+- 1 run `~ rake db:create`
+- 2 run `~ rake db:migrate`
+- 3 run `~ rake db:seed`
 
 ## Fire up the server (localhost:3000)
 
-- 6 run `~ rails s`
+- 1 run `~ rails s`
 
 The app will be running on `localhost:9292`
 
