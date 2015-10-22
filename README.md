@@ -13,9 +13,8 @@ I built this app for practice. It is not intended for use, however can be used. 
 
 - 1 run `~ rake db:create`
 - 2 run `~ rake db:migrate`
-- 3 run `~ rake db:seed`
 
-- 4 run `~ rails c`
+- 3 run `~ rails c`
 
 ```html 
 
